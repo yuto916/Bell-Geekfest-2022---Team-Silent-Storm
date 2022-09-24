@@ -35,7 +35,7 @@ include ("./header.php");
 
 <p>The suggestion based on your input is: <?php echo "$result"; ?></p>
 
-	<a href="./lab5.php">Click here to go back to the Lab5 page </a>
+	<a href="./index.php">Click here to go back to the main page </a>
 
 <?php
 include ("./footer.php");
