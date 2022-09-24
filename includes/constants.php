@@ -1,5 +1,5 @@
 <?php
-    define("DB_HOST", "127.0.0.1");
+    define("DB_HOST", "");
     define("DATABASE", "");
     define("DB_ADMIN", "");
     define("DB_PASSWORD", "");

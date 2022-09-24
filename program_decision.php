@@ -23,10 +23,10 @@ include ("./header.php");
 		$result = "You might need to renew your PR status soon";
 	} 
 	else if (($_POST['calc'] == "worker") && ($_POST['val1'] >= 1) && ($_POST['val2'] >= 1)) {
-		$result = "You might qualified for CEC program";
+		$result = "You might be qualified for CEC program";
 	} 
 	else if (($_POST['calc'] == "student") && ($_POST['val1'] >= 2) && ($_POST['val2'] >= 1)) {
-		$result = "You might qualified for PNP graduate stream program";
+		$result = "You might be qualified for PNP graduate stream program";
 	} 
 	else {
 		$result = "Sorry, looks like nothing much you can do for now.";
